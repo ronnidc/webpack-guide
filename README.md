@@ -1,6 +1,6 @@
-# Custom Builder
+# Webpack Guide - Asset Manager
 
-### Curent bookmark: [webpack.js.org/guides/../#..](https://https://webpack.js.org/guides/asset-management/#loading-images)
+### Link: https://webpack.js.org/guides/asset-management/
 
 ## Tips
 

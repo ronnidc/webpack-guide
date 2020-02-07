@@ -1,9 +1,7 @@
-# Webpack Guide - Hot Module Replacement
+# Webpack Guide - Code Splitting
 
-### Link: https://webpack.js.org/guides/hot-module-replacement/
+### Link: https://webpack.js.org/guides/code-splitting/
 
 ## Look further into:
 
-* Production setup https://webpack.js.org/guides/production/
-	_(HMR is not intended for use in production, meaning it should only be used in development.)_
-* WDS = Webpack-Dev-Server
+* 

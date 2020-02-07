@@ -10,14 +10,14 @@ module.exports = {
 	mode: 'development',
   entry: {
     app: `./${sourceDir}/index.js`,
-    print: `./${sourceDir}/print.js`,
   },
   devtool: 'inline-source-map',
   devServer: {
       contentBase: path.join(__dirname, distributionDir),
+      hot: true,
       quiet: true, // Terminal console
       noInfo: false, // Terminal console
-      clientLogLevel: 'silent', // Browser console  
+      //clientLogLevel: 'silent', // Browser console  
   },
   output: {
     filename: '[name].bundle.js',
@@ -40,6 +40,10 @@ module.exports = {
   ],
   module: {
     rules: [
+      {
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader'],
+      },
       {
         test: /\.(png|svg|jpg|gif)$/,
         use: [

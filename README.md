@@ -6,4 +6,4 @@
 
 * Production setup https://webpack.js.org/guides/production/
 	_(HMR is not intended for use in production, meaning it should only be used in development.)_
-* 
+* WDS = Webpack-Dev-Server

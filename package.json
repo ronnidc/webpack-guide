@@ -9,6 +9,7 @@
     "watch": "webpack --watch",
     "start": "webpack-dev-server --open",
     "dev": "webpack-dev-server",
+    "silent": "webpack-dev-server --client-log-level silent",
     "build": "webpack"
   },
   "repository": {

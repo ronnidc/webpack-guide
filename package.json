@@ -5,6 +5,10 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "clean-webpack-plugin",
+    "watch": "webpack --watch",
+    "start": "webpack-dev-server --open",
+    "dev": "webpack-dev-server",
     "build": "webpack"
   },
   "repository": {
@@ -21,12 +25,12 @@
   "devDependencies": {
     "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^3.4.2",
-    "csv-loader": "^3.0.2",
     "file-loader": "^5.0.2",
     "html-webpack-plugin": "^3.2.0",
     "style-loader": "^1.1.3",
     "webpack": "^4.41.5",
     "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.3",
     "webpack-manifest-plugin": "^2.2.0",
     "xml-loader": "^1.2.1"
   },

@@ -3,31 +3,31 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 var ManifestPlugin = require('webpack-manifest-plugin');
 
-var distributionPath = 'dist';
-var sourcePath = 'src';
+var distributionDir = 'dist';
+var sourceDir = 'src';
 
 module.exports = {
 	mode: 'development',
   entry: {
-    app: './src/index.js',
-    print: './src/print.js',
+    app: `./${sourceDir}/index.js`,
+    print: `./${sourceDir}/print.js`,
   },
   devtool: 'inline-source-map',
   devServer: {
-      contentBase: path.join(__dirname, distributionPath),
+      contentBase: path.join(__dirname, distributionDir),
       quiet: true, // Terminal console
       noInfo: false, // Terminal console
       clientLogLevel: 'silent', // Browser console  
   },
   output: {
     filename: '[name].bundle.js',
-    path: path.resolve(__dirname, distributionPath),
+    path: path.resolve(__dirname, distributionDir),
   },
   plugins: [
     new ManifestPlugin({
       fileName: 'webpack-manifest.json',
-      basePath: '/' + sourcePath + '/',
-      publicPath: '/' + distributionPath + '/',
+      basePath: `/${sourceDir}/`,
+      publicPath: `/${distributionDir}/`,
       seed: {
         name: 'Webpack Manifest'
       }
@@ -35,7 +35,7 @@ module.exports = {
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       title: 'Output Management',
-      favicon: sourcePath + '/favicon.png',
+      favicon: `${sourceDir}/favicon.png`,
     })
   ],
   module: {

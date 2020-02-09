@@ -1,6 +1,6 @@
 # Webpack Guide
 
-### Curent bookmark: [webpack.js.org/guides/../#..](https://webpack.js.org/guides/)
+### [webpack.js.org/guides/](https://webpack.js.org/guides/)
 
 _Check the branches for specific guides_
 

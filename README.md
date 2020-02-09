@@ -1,8 +1,10 @@
-# Custom Builder
+# Webpack Guide
 
-### Curent bookmark: [webpack.js.org/guides/../#..](https://https://webpack.js.org/guides/asset-management/#loading-images)
+### Curent bookmark: [webpack.js.org/guides/../#..](https://webpack.js.org/guides/)
 
-## Tips
+_Check the branches for specific guides_
+
+## Links to follow up
 
 * Mode variables: [webpack/configuration/mode/](https://webpack.js.org/configuration/mode/)
 * 

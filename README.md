@@ -6,5 +6,12 @@ _Check the branches for specific guides_
 
 ## Links to follow up
 
-* Mode variables: [webpack/configuration/mode/](https://webpack.js.org/configuration/mode/)
-* 
+* Mode variables https://webpack.js.org/configuration/mode/
+* Hot Module Replacement https://webpack.js.org/guides/hot-module-replacement/
+* Tree shaking https://webpack.js.org/guides/tree-shaking/
+* Advanced entry https://webpack.js.org/guides/entry-advanced/
+* Loaders Templating & Styling (Handlebars, sass) https://webpack.js.org/loaders/#templating
+
+## Scaffolding
+
+* Scaffolding https://webpack.js.org/guides/scaffolding/

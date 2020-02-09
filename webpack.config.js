@@ -15,7 +15,7 @@ module.exports = {
   devServer: {
       contentBase: path.join(__dirname, distributionDir),
       hot: true,
-      quiet: true, // Terminal console
+      quiet: false, // Terminal console
       noInfo: false, // Terminal console
       //clientLogLevel: 'silent', // Browser console  
   },

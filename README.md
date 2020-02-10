@@ -2,7 +2,7 @@
 
 ### [webpack.js.org/guides/](https://webpack.js.org/guides/)
 
-_Check the branches for specific guides_
+_Check the branches for code related to the specific guide_
 
 ## Links to follow up
 

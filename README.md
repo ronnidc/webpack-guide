@@ -1,5 +1,7 @@
 # Webpack Guide
 
+*Archived April 25. 2023*
+
 ### [webpack.js.org/guides/](https://webpack.js.org/guides/)
 
 _Check the branches for code related to the specific guide_
